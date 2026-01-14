@@ -77,11 +77,11 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.5s forwards;
+  animation: slide-back 0.3s;
 }
 
 .light #switch button {
-  animation: slide-in 0.5s forwards;
+  animation: slide-in 0.3s;
 }
 
 #switch span {
