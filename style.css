@@ -81,7 +81,11 @@ body * {
 }
 
 .light #switch button {
-  animation: slide-in 0.3s;
+  animation: slide-in 0.3s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
